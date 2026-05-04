@@ -32,6 +32,7 @@ export function verifyToken(token) {
   return payload;
 }
 
+//asynchronous function to require authentication
 export async function requireAuth(req, res, next) {
   const token = req.headers.authorization?.replace(/^Bearer\s+/i, "");
   const payload = token ? verifyToken(token) : null;

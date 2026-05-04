@@ -1,0 +1,5 @@
+backend/node_modules/
+backend/data/
+backend/server.*.log
+node-v*-win-x64.zip
+tools/

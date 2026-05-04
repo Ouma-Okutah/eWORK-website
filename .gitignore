@@ -4,3 +4,4 @@ backend/server.*.log
 node-v*-win-x64.zip
 tools/
 *.env
+.env.*
